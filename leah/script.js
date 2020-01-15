@@ -1,4 +1,3 @@
-<script>
 
 // set the dimensions and margins of the graph
 var margin = {top: 60, right: 230, bottom: 50, left: 50},
@@ -15,6 +14,7 @@ var svg = d3.select("#my_dataviz")
           "translate(" + margin.left + "," + margin.top + ")");
 
 // Parse the Data
+// "https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/5_OneCatSevNumOrdered_wide.csv"
 d3.csv("data.csv", function(data) {
 
 
@@ -61,12 +61,12 @@ d3.csv("data.csv", function(data) {
       .attr("text-anchor", "end")
       .attr("x", 0)
       .attr("y", -20 )
-      .text("Burden of Government Regulation")
+      .text("# Burden of Governemnt Regulations")
       .attr("text-anchor", "start")
 
   // Add Y axis
   var y = d3.scaleLinear()
-    .domain([0, 200000])
+    .domain([0, 30])
     .range([ height, 0 ]);
   svg.append("g")
     .call(d3.axisLeft(y).ticks(5))
@@ -195,3 +195,5 @@ d3.csv("data.csv", function(data) {
         .style("alignment-baseline", "middle")
         .on("mouseover", highlight)
         .on("mouseleave", noHighlight)
+
+})
