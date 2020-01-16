@@ -14,7 +14,7 @@ var svg = d3.select("#my_dataviz")
 
 // Parse the Data
 // "https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/5_OneCatSevNumOrdered_wide.csv"
-d3.csv("data.csv", function(data) {
+d3.csv("teror.csv", function(data) {
 
 
   //////////
@@ -60,7 +60,7 @@ d3.csv("data.csv", function(data) {
       .attr("text-anchor", "end")
       .attr("x", 0)
       .attr("y", -20 )
-      .text("Burden of Governemnt Regulations in East Africa")
+      .text("Political Stabiity and Absence of Violence/ terrorism")
       .attr("text-anchor", "start")
 
   // Add Y axis
