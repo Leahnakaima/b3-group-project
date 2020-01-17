@@ -705,9 +705,10 @@ ul.contact li a.icon-rss:before
 
 	#header-featured
 	{
-		height: 30em;
-		background-image: url(images/banner.jpg);
+		height: 28em;
+		background-image: url("http://www.itu.int/en/ITUTELECOM/Newsletter/images/WT18-Banner_HTML-Leapfrogging.png");
 		background-position: center;
+		background-repeat: no-repeat;
 		background-size: cover;
 	}
 
