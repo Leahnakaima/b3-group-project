@@ -57,5 +57,5 @@ var layout = {
   title: 'Availability of Latest Technology in Eastern African Countries',
 };
 
-Plotly.newPlot('myDiv', data, layout);
+Plotly.newPlot('graph1', data, layout);
 })
