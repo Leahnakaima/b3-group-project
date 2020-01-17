@@ -57,5 +57,5 @@ var layout = {
   title: 'Availability of Research and Training Services in Eastern African Countries',
 };
 
-Plotly.newPlot('myDiv', data, layout);
+Plotly.newPlot('graph2', data, layout);
 })
