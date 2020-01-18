@@ -1,34 +1,21 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawSeriesChart);
+<head>
+  <title style="text-align: center;">Enabling Internet Infrastructure in East Africa</title>
+</head>
 
-    function drawSeriesChart() {
+<body>
+<h1 style="text-align: center; min-width: 50%; margin-left: 200; margin-right: 800; font-family: arial;"
+>Kenya and Tanzania leading the pack in Internet Infrastructure</h1>
 
-      var data = google.visualization.arrayToDataTable([
-        ['Country', 'LPI Indicator', 'Infrastructure', 'Region', 'GDP(2017)'],
-        ['Kenya',     2.9, 2.7,     'East Africa', 78.76],
-        ['Rwanda',    2.9, 2.6,     'East Africa', 9.14],
-        ['Tanzania',  2.9, 2.7,     'East Africa', 53.32],
-        ['Uganda',    2.8, 2.5,     'East Africa', 26.00],
-        ['Ethiopia',  2.4, 2.1,     'East Africa', 81.76]
-        ]);
+<p style="min-width: 50%; margin-left: 200; margin-right: 800; font-family: arial;">The Internet has witnessed a dramatic evolution since its launch in 1995, presenting a myriad of opportunities to society and to enterprises, in particular, through access to information in Kenya (Digital Kenya, World Bank). The most dramatic increase in internet happened in 2018, when the number of secure internet servers per 1 mil population grew 6 times year-on-year. The rest of East Africa are not far behind. Despite its relative underdevelopment compared to the league of East African community, Ethiopia is also catching up quick in the internet game.</p>
 
-      var options = {
-        title: 'Correlation between LPI indicator, Infrastructure ' +
-               'and GDP of East African countries (2017)',
-        hAxis: {title: 'LPI Indicator'},
-        vAxis: {title: 'Infrastructure-specific indicator'},
-        bubble: {textStyle: {fontSize: 11}}      };
+<iframe title="Number of Secure Internet Server per 1 million User" aria-label="Split Bars" id="datawrapper-chart-VVW3W" src="//datawrapper.dwcdn.net/VVW3W/1/" scrolling="no" frameborder="0" style="text-align: center; width: 0; min-width: 50% !important; border: none;" height="350"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
 
-      var chart = new google.visualization.BubbleChart(document.getElementById('series_chart_div'));
-      chart.draw(data, options);
-    }
-    </script>
-  </head>
-  <body>
-    <div id="series_chart_div" style="width: 900px; height: 500px;"></div>
-  </body>
+<iframe title="International Internet Bandwidth (bit/s) per Internet user" aria-label="Split Bars" id="datawrapper-chart-NGOi7" src="//datawrapper.dwcdn.net/NGOi7/1/" scrolling="no" frameborder="0" style="text-align: center; width: 0; min-width: 50% !important; border: none;" height="350"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+
+<h2 style="text-align: center; min-width: 50%; margin-left: 200; margin-right: 800; font-family: arial">Kenya Trailblazing</h2>
+<p style="text-align: center; min-width: 50%; margin-left: 200; margin-right: 800; font-family: arial">In terms of investment in network quality however, Kenya and Uganda leads the pack. International Internet bandwidth available per Internet User increased more than 80% and 20% annually in the past 3 years, in Kenya and Uganda. Meanwhile, the others are not quite meeting the demands of users, which suggests significant growth potential for your investment in network and connectivity infrastructure in Ethiopia, Rwanda and Tanzania.</p>
+
+</body>
 </html>
