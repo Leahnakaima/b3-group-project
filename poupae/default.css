@@ -707,14 +707,15 @@ ul.contact li a.icon-rss:before
 
 .column-text
 {
-	font-size: 1.3em
-
+	font-size: 1.3em;
+	margin-left: 50px;
+	width: 400px;
 }
 
 #header-featured
 {
 	height: 30em;
-	background-image: url("https://esaro.unfpa.org/sites/default/files/styles/topics_thumb/public/topics/Population%20matters_0.jpg");
+	background-image: url("https://marketingweek.imgix.net/content/uploads/2017/04/19162858/Death-of-innovation-2017.jpg");
 	background-position: center;
 	background-size: cover;
 }
