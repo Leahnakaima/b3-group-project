@@ -1,0 +1,20 @@
+body {
+background: FFFFFF;
+
+}
+
+.bubbles {
+  stroke-width: 2px;
+  stroke: white;
+}
+.bubbles:hover {
+  stroke: black;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
