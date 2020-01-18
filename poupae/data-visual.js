@@ -54,8 +54,37 @@ var Uganda = {
 var data = [Ethiopia,Kenya,Rwanda,Tanzania,Uganda];
 
 var layout = {
-  title: 'Availability of Latest Technology in Eastern African Countries',
+  title: {
+    text:'Plot Title',
+    font: {
+      family: 'Courier New, monospace',
+      size: 24
+    },
+    // xref: 'paper',
+    // x: 0.05,
+  },
+  xaxis: {
+    title: {
+      text: 'x Axis',
+      font: {
+        family: 'Courier New, monospace',
+        size: 18,
+        color: '#7f7f7f'
+      }
+    },
+  },
+  yaxis: {
+    title: {
+      text: 'y Axis',
+      font: {
+        family: 'Courier New, monospace',
+        size: 18,
+        color: '#7f7f7f'
+      }
+      
+    }
+  }
 };
 
-Plotly.newPlot('graph1', data);
+Plotly.newPlot('graph1', data, layout);
 })
