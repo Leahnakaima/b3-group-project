@@ -707,9 +707,11 @@ ul.contact li a.icon-rss:before
 
 .column-text
 {
-	font-size: 1.3em
-
+	font-size: 1.3em;
+	margin-left: 50px;
+	width: 400px;
 }
+
 
 #header-featured
 {
