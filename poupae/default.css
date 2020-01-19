@@ -522,7 +522,7 @@ ul.contact li a.icon-rss:before
 	margin: 0em;
 	padding: 0em;
 	font-weight: 400;
-	font-size: 3em;
+	font-size: 1.5em;
 	color: #555555;
 }
 
@@ -712,10 +712,11 @@ ul.contact li a.icon-rss:before
 	width: 400px;
 }
 
+
 #header-featured
 {
 	height: 30em;
-	background-image: url("https://marketingweek.imgix.net/content/uploads/2017/04/19162858/Death-of-innovation-2017.jpg");
+	background-image: url("https://www.africainnovationsummit.com/uploads/video/Africa%20Innovation%20Summit%2045%20secs.png");
 	background-position: center;
 	background-size: cover;
 }
@@ -956,4 +957,9 @@ ul.contact li a.icon-rss:before
 #extra2 #ebox2
 {
 	float: right;
+}
+
+.graph
+{
+	background: #FFFFFF;
 }
