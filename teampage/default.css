@@ -12,7 +12,7 @@ body
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 11pt;
 	font-weight: 300;
-	color: #6c6c6c
+	color: #FFFFFF
 }
 
 h1, h2, h3
@@ -58,6 +58,8 @@ a:hover
 	margin: 0px auto;
 	width: 1200px;
 }
+
+.
 
 /*********************************************************************************/
 /* Image Style                                                                   */
@@ -475,33 +477,34 @@ ul.contact li a.icon-rss:before
 	overflow: hidden;
 	padding: 3em 0em;
 	background: #E24E2A;
-	max-height: 50px
-	border: 1px solid black;
-	/*display: inline;
-    justify-content: space-evenly;
-    position: relative;*/
-/*
-        top: 35%;
-
-        left: 50%;
-
-        transform: translateX(-50%);*/
 }
+
+	#banner-wrapper2
+{
+	overflow: hidden;
+	padding: 3em 0em;
+	background: #000000;
+	font-size: 1em;
+	width: 1000px;
+	text-align: center;
+}
+
+	
+
 
 #banner
 {
 	overflow: hidden;
+	font-size: 1.5em;
 	width: 1000px;
 	padding: 0px 100px;
 	text-align: center;
 	color: rgba(255,255,255,.7);
-	border: 1px solid black;
 }
 
 #banner a
 {
 	color: rgba(255,255,255,.9);
-	border: 1px solid black;
 }
 
 #banner .box-left
@@ -519,9 +522,8 @@ ul.contact li a.icon-rss:before
 	margin: 0em;
 	padding: 0em;
 	font-weight: 400;
-	font-size: 3em;
-	color: #555555;
-	border: 1px solid black;
+	font-size: 1.3em;
+	color: #FFFFFF;
 }
 
 #banner span
@@ -529,7 +531,7 @@ ul.contact li a.icon-rss:before
 	display: block;
 	padding-top: 0.20em;
 	text-transform: uppercase;
-	font-size: 1.2em;
+	font-size: 10em;
 	color: #A2A2A2;
 }
 
@@ -672,13 +674,14 @@ ul.contact li a.icon-rss:before
 
 #featured .title h2
 {
-	font-size: 1.2em;
+	font-size: 2em;
 }
 
 #featured h2
 {
 	text-align: center;
-	color: #FFF;
+	font-size: 1.5em;
+	color: #FFFFFF;
 }
 
 #featured .icon
@@ -692,39 +695,33 @@ ul.contact li a.icon-rss:before
 	line-height:  100px;
 	font-size: 3em;
 	text-align: center;
-	color: #FFF;
-}
-
-.column1,  .column2,  .column3,  .column4
-{
-	width: 282px;
+	color: #FFFFFF;
 }
 
 .column1,  .column2
 {
 	float: left;
-	margin-right: 24px;
+	margin-left: 75px;
+	width: 500px;
 }
 
-.column3
+.column-text
 {
-	float: left;
+	font-size: 1.3em;
+	margin-left: 50px;
+	width: 400px;
 }
 
-.column4
+
+#header-featured
 {
-	float: right;
+	height: 30em;
+	background-image: url("https://www.africainnovationsummit.com/uploads/video/Africa%20Innovation%20Summit%2045%20secs.png");
+	background-position: center;
+	background-size: cover;
 }
 
 
-	#header-featured
-	{
-		height: 28em;
-		background-image: url("http://www.itu.int/en/ITUTELECOM/Newsletter/images/WT18-Banner_HTML-Leapfrogging.png");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
 
 
 #slider-wrapper
@@ -960,4 +957,9 @@ ul.contact li a.icon-rss:before
 #extra2 #ebox2
 {
 	float: right;
+}
+
+.graph
+{
+	background: #FFFFFF;
 }
