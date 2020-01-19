@@ -12,7 +12,7 @@ body
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 11pt;
 	font-weight: 300;
-	color: #FFFFFF
+	color: #6c6c6c
 }
 
 h1, h2, h3
@@ -58,8 +58,6 @@ a:hover
 	margin: 0px auto;
 	width: 1200px;
 }
-
-.
 
 /*********************************************************************************/
 /* Image Style                                                                   */
@@ -479,23 +477,9 @@ ul.contact li a.icon-rss:before
 	background: #E24E2A;
 }
 
-	#banner-wrapper2
-{
-	overflow: hidden;
-	padding: 3em 0em;
-	background: #000000;
-	font-size: 1em;
-	width: 1000px;
-	text-align: center;
-}
-
-	
-
-
 #banner
 {
 	overflow: hidden;
-	font-size: 1.5em;
 	width: 1000px;
 	padding: 0px 100px;
 	text-align: center;
@@ -522,7 +506,7 @@ ul.contact li a.icon-rss:before
 	margin: 0em;
 	padding: 0em;
 	font-weight: 400;
-	font-size: 1.5em;
+	font-size: 3em;
 	color: #555555;
 }
 
@@ -531,7 +515,7 @@ ul.contact li a.icon-rss:before
 	display: block;
 	padding-top: 0.20em;
 	text-transform: uppercase;
-	font-size: 10em;
+	font-size: 1.2em;
 	color: #A2A2A2;
 }
 
@@ -674,14 +658,13 @@ ul.contact li a.icon-rss:before
 
 #featured .title h2
 {
-	font-size: 2em;
+	font-size: 1.2em;
 }
 
 #featured h2
 {
 	text-align: center;
-	font-size: 1.5em;
-	color: #FFFFFF;
+	color: #FFF;
 }
 
 #featured .icon
@@ -695,33 +678,39 @@ ul.contact li a.icon-rss:before
 	line-height:  100px;
 	font-size: 3em;
 	text-align: center;
-	color: #FFFFFF;
+	color: #FFF;
+}
+
+.column1,  .column2,  .column3,  .column4
+{
+	width: 282px;
 }
 
 .column1,  .column2
 {
 	float: left;
-	margin-left: 75px;
-	width: 500px;
+	margin-right: 24px;
 }
 
-.column-text
+.column3
 {
-	font-size: 1.3em;
-	margin-left: 50px;
-	width: 400px;
+	float: left;
 }
 
-
-#header-featured
+.column4
 {
-	height: 30em;
-	background-image: url("https://www.africainnovationsummit.com/uploads/video/Africa%20Innovation%20Summit%2045%20secs.png");
-	background-position: center;
-	background-size: cover;
+	float: right;
 }
 
 
+	#header-featured
+	{
+		height: 28em;
+		background-image: url("http://www.itu.int/en/ITUTELECOM/Newsletter/images/WT18-Banner_HTML-Leapfrogging.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
 
 #slider-wrapper
@@ -957,9 +946,4 @@ ul.contact li a.icon-rss:before
 #extra2 #ebox2
 {
 	float: right;
-}
-
-.graph
-{
-	background: #FFFFFF;
 }

@@ -483,7 +483,7 @@ ul.contact li a.icon-rss:before
 	width: 1000px;
 	padding: 0px 100px;
 	text-align: center;
-	color: rgba(255,255,255,.7);
+	color: rgb(0,0,0);
 }
 
 #banner a
@@ -515,7 +515,7 @@ ul.contact li a.icon-rss:before
 	display: block;
 	padding-top: 0.20em;
 	text-transform: uppercase;
-	font-size: 1.2em;
+	font-size: 5.2em;
 	color: #A2A2A2;
 }
 
