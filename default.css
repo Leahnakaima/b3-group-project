@@ -515,7 +515,7 @@ ul.contact li a.icon-rss:before
 	display: block;
 	padding-top: 0.20em;
 	text-transform: uppercase;
-	font-size: 5.2em;
+	font-size: 1.2em;
 	color: #A2A2A2;
 }
 
@@ -596,7 +596,7 @@ ul.contact li a.icon-rss:before
 {
 	overflow: hidden;
 	padding: 5em 0em;
-	border-top: 1px solid rgba(255,255,255,0.08);
+	border-top: 1px solid rgb(0,0,0);
 }
 
 #copyright p
@@ -605,13 +605,13 @@ ul.contact li a.icon-rss:before
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 0.80em;
-	color: rgba(255,255,255,0.3);
+	color: rgb(0,0,0);
 }
 
 #copyright a
 {
 	text-decoration: none;
-	color: rgba(255,255,255,0.6);
+	color: rgb(0,0,0);
 }
 
 /*********************************************************************************/
@@ -705,10 +705,9 @@ ul.contact li a.icon-rss:before
 
 	#header-featured
 	{
-		height: 28em;
-		background-image: url("http://www.itu.int/en/ITUTELECOM/Newsletter/images/WT18-Banner_HTML-Leapfrogging.png");
+		height: 30em;
+		background-image: url("https://www.verdict.co.uk/wp-content/uploads/2019/01/Digital-Africa.jpg");
 		background-position: center;
-		background-repeat: no-repeat;
 		background-size: cover;
 	}
 
@@ -862,7 +861,7 @@ ul.contact li a.icon-rss:before
 {
 	font-size: 1.6em;
 	font-weight: 300;
-	color: #FFF;
+	color: #000000;
 }
 
 #footer .title .byline
@@ -871,7 +870,7 @@ ul.contact li a.icon-rss:before
 	padding-top: 1em;
 	text-transform: uppercase;
 	font-size: 0.80em;
-	color: rgba(255,255,255,0.5);
+	color : rgb(0,0,0)
 }
 
 #footer .button
