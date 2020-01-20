@@ -8,11 +8,11 @@ body
 {
 	margin: 0px;
 	padding: 0px;
-	background: #FFFF;
+	background: #1B9772;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 12pt;
+	font-size: 11pt;
 	font-weight: 300;
-	color: #6c6c6c
+	color: #FFFFFF
 }
 
 h1, h2, h3
@@ -58,6 +58,7 @@ a:hover
 	margin: 0px auto;
 	width: 1200px;
 }
+
 
 /*********************************************************************************/
 /* Image Style                                                                   */
@@ -892,10 +893,10 @@ ul.style3 .icon
 	text-decoration: none;
 	color: #2C383B;
 }
-
 /*********************************************************************************/
 /* Menu                                                                          */
 /*********************************************************************************/
+
 
 #menu
 {
@@ -924,7 +925,7 @@ ul.style3 .icon
 	padding: 0em 1.5em;
 	letter-spacing: 0.10em;
 	text-decoration: none;
-	font-size: 1em;
+	font-size: 0.95em;
 	text-transform: uppercase;
 	outline: 0;
 	color: #212121;
