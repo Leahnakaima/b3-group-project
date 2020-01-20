@@ -10,15 +10,16 @@ body
 	padding: 0px;
 	background: #1B9772;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 11pt;
+	font-size: 15pt;
 	font-weight: 300;
-	color: #6c6c6c
+	color: #FFFFFF
 }
 
 h1, h2, h3
 {
 	margin: 0;
 	padding: 0;
+	font-size: 20pt;
 	font-weight: 600;
 	color: #454445;
 }
@@ -483,7 +484,8 @@ ul.contact li a.icon-rss:before
 	width: 1000px;
 	padding: 0px 100px;
 	text-align: center;
-	color: rgb(0,0,0);
+	font-size: 1.3em;
+	color: #FFFFFF;
 }
 
 #banner a
@@ -506,10 +508,9 @@ ul.contact li a.icon-rss:before
 	margin: 0em;
 	padding: 0em;
 	font-weight: 400;
-	font-size: 3em;
-	color: #555555;
+	font-size: 1.3em;
+	color: #FFFFFF;
 }
-
 #banner span
 {
 	display: block;
