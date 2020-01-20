@@ -4,16 +4,25 @@
 This website is the output of a data programming for policy making class (DPI 691) at the Harvard Kennedy School in January 2020 by group b3. The course description can be accessed here :https://www.hks.harvard.edu/courses/programming-and-data-policymakers. Modules and learning outcomes from this project can be forked from https://github.com/code4policy/modules. 
 
 ## Templates
+
 https://templated.co/wirework
+
 https://github.com/Igorhr/igorhr.github.io/blob/f25ebe79f03bd9d9f990121f5f23690aabab132e/portfolio/htmlCSS/proekti/3.profileCards.html
+
 http://www.w3.org/1999/xhtml
+
 https://d3js.org/d3.v4.js
+
 https://d3js.org/d3-scale-chromatic.v1.min.js
+
 https://cdn.plot.ly/plotly-latest.min.js
+
 https://app.datawrapper.de
 
 ## Packages
+
 http://fonts.googleapis.com/css
+
 fonts/fontawesome-webfont.eot?v=3.0.1
 
 ## Usage
@@ -23,11 +32,17 @@ The website may also serve as a brief information hub for a simple overview of t
 
 ## Organization
 The files on this github repository is organized as follows:
+
 Homepage: /index.html with appending .js file and .css file
+
 Team page: /teampage/index.html with appending .js file and .css file
+
 Innovation: /poupae/index.html with appending .js file and .css file
+
 Demographics: /uzair/index.html with appending .js file and .css file
+
 Infrastructure: /farhana/index.html with appending .js file and .css file
+
 Governance: /leah/index.html with appending .js file and .css file
 
 ## Contributing
