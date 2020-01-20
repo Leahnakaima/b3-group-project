@@ -11,7 +11,7 @@ var Ethiopia = {
   name: 'Ethiopia',
   x: unpack(rows, 'Year'),
   y: unpack(rows, 'ETH'),
-  line: {color: '#17BECF'}
+  line: {color: '#FA8C00'}
 }
 
 var Kenya = {
@@ -20,7 +20,7 @@ var Kenya = {
   name: 'Kenya',
   x: unpack(rows, 'Year'),
   y: unpack(rows, 'KEN'),
-  line: {color: '#FF7133'}
+  line: {color: '#007B63'}
 }
 
 var Rwanda = {
@@ -29,7 +29,7 @@ var Rwanda = {
   name: 'Rwanda',
   x: unpack(rows, 'Year'),
   y: unpack(rows, 'RWA'),
-  line: {color: '#248F09'}
+  line: {color: '#C71E1D'}
 }
 
 var Tanzania = {
@@ -38,7 +38,7 @@ var Tanzania = {
   name: 'Tanzania',
   x: unpack(rows, 'Year'),
   y: unpack(rows, 'TZA'),
-  line: {color: '#3341FF'}
+  line: {color: '#008CB7'}
 }
 
 var Uganda = {
@@ -47,15 +47,45 @@ var Uganda = {
   name: 'Uganda',
   x: unpack(rows, 'Year'),
   y: unpack(rows, 'UGA'),
-  line: {color: '#F633FF'}
+  line: {color: '#7F4C7B'}
 }
 
 
 var data = [Ethiopia,Kenya,Rwanda,Tanzania,Uganda];
 
 var layout = {
-  title: 'Availability of Research and Training Services in Eastern African Countries',
+  title: {
+    text:'Availability of Research and Training Services: Abundant Research and Training in Kenya Could Explain the Digital Boom',
+    font: {
+      family: 'Source Sans Pro',
+      size: 20
+
+    },
+    // xref: 'paper',
+    // x: 0.05,
+  },
+  xaxis: {
+    title: {
+      text: 'Year',
+      font: {
+        family: 'Source Sans Pro',
+        size: 14,
+        color: '#000000'
+      }
+    },
+  },
+  yaxis: {
+    title: {
+      text: 'Availability of Latest Technology',
+      font: {
+        family: 'Source Sans Pro',
+        size: 14,
+        color: '000000'
+      }  
+    }
+  }
+
 };
 
-Plotly.newPlot('graph2', data);
+Plotly.newPlot('graph2', data, layout);
 })

@@ -56,11 +56,18 @@ Released   : 20140208
 </div>
 
 <!-- try adding an interactive graph FIRST-->
-<div class="graph">
+<!-- <div class="graph">
 	<iframe title="Availability of Latest Technology" aria-label="Interactive line chart" id="datawrapper-chart-GPrO2" src="//datawrapper.dwcdn.net/GPrO2/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="293"></iframe>
 
 	<script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+</div> -->
+<div class="graph">
+	<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+	<div id='graph1'><!-- Plotly chart will be drawn inside this DIV --></div>
+	<script src="data-visual.js"></script>
+	<h3>Source: WEF Technology Availability Report, the World Economic forum</h3>
 </div>
+
 
 <!--  adding the orange block SECOND -->
 <div id="banner-wrapper">
@@ -73,10 +80,11 @@ Released   : 20140208
 
 
 <!-- try adding an interactive graph SECOND-->
-<div>
+<div class="graph">
 	<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
 	<div id='graph2'><!-- Plotly chart will be drawn inside this DIV --></div>
 	<script src="data-visual2.js"></script>
+	<h3>Source: WEF Global Competitiveness Index Report, the World Economic forum</h3>
 </div>
 
 <!-- adding the 2 columns -->
