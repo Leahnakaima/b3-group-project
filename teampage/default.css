@@ -475,6 +475,17 @@ ul.contact li a.icon-rss:before
 	overflow: hidden;
 	padding: 3em 0em;
 	background: #E24E2A;
+	max-height: 50px
+	border: 1px solid black;
+	/*display: inline;
+    justify-content: space-evenly;
+    position: relative;*/
+/*
+        top: 35%;
+
+        left: 50%;
+
+        transform: translateX(-50%);*/
 }
 
 #banner
@@ -484,11 +495,13 @@ ul.contact li a.icon-rss:before
 	padding: 0px 100px;
 	text-align: center;
 	color: rgba(255,255,255,.7);
+	border: 1px solid black;
 }
 
 #banner a
 {
 	color: rgba(255,255,255,.9);
+	border: 1px solid black;
 }
 
 #banner .box-left
@@ -508,6 +521,7 @@ ul.contact li a.icon-rss:before
 	font-weight: 400;
 	font-size: 3em;
 	color: #555555;
+	border: 1px solid black;
 }
 
 #banner span

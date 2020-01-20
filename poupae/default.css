@@ -522,7 +522,7 @@ ul.contact li a.icon-rss:before
 	margin: 0em;
 	padding: 0em;
 	font-weight: 400;
-	font-size: 3em;
+	font-size: 1.5em;
 	color: #555555;
 }
 
@@ -711,6 +711,7 @@ ul.contact li a.icon-rss:before
 	margin-left: 50px;
 	width: 400px;
 }
+
 
 #header-featured
 {
@@ -956,4 +957,9 @@ ul.contact li a.icon-rss:before
 #extra2 #ebox2
 {
 	float: right;
+}
+
+.graph
+{
+	background: #FFFFFF;
 }
