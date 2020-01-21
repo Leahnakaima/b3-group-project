@@ -33,7 +33,7 @@ The website may also serve as a brief information hub for a simple overview of t
 ## Organization
 The files on this github repository is organized as follows:
 
-Homepage: /index.html with appending .js file and .css file
+Homepage: /index.html with appending .css file
 
 Team page: /teampage/index.html with appending .js file and .css file
 
